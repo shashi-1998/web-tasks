@@ -1,0 +1,28 @@
+
+ <html>
+    <head>
+        <body>
+            <form>
+                username:<input type="text" id="username"><br>
+                password:<input type="password" id="password"><br>
+                <button onclick="login()">Login</button>
+            </form>
+            <script>
+                function login(){
+               
+                    var username_value=document.getElementById("username").value;
+                    var password_value=document.getElementById("password").value;
+                    if(username_value=="dhanu" && password_value=="dhanu123"){
+                        alert("successfully login");
+
+                    }
+                    else{
+                        alert("incorrect usename");
+                    }
+
+
+                }
+            </script>
+        </body>
+    </head>
+</html>
